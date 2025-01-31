@@ -5,31 +5,73 @@
 }
 html {font-size: 100%;} /*16px*/
 
-body {
-  background-color: #b09bbd;
-  color: #181354;
-  margin: 0;
-  padding: 50px;
-  line-height: 1.75;
-}
+
 h1 {
-   
-  font-family: violeta-jardinera, sans-serif;
-  font-weight: 400;
+  color: black;
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 800;
   font-style: normal;
-  font-size: 5em;
+  font-size: 7em;
+  text-align: center;
+  background: none;
+  transition: background 0.5s ease, color 0.5s ease;
+  animation: rainbow 2s ease-in-out infinite;
 }
 
-h2 {font-size: 3em;
+h1:hover {
+  color:transparent;
+  background: linear-gradient(
+    90deg,
+    #f4e7fb,
+    #f2dddc,
+    #f6bcba,
+    #e3aadd,
+    #c8a8e9,
+    #c3c7f4
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  font-family: swear-display-cilati, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3em;
 
 }
 
-h4 {font-size: 1.5em;
-margin-top: 0;
 
+h4 {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-top: 0;
+  text-align: center;
 }
 
 dt {
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 	font-size: 2em;
 	font-weight: bold;
+
+}
+
+dd {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+li {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a:hover {
+  color: #ffffff;
 }
