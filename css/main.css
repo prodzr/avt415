@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+html {font-size: 100%;} /*16px*/
+
+
+h1 {
+  color: black;
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 7em;
+  text-align: center;
+  background: none;
+  transition: background 0.5s ease, color 0.5s ease;
+  animation: rainbow 2s ease-in-out infinite;
+}
+
+h1:hover {
+  color:transparent;
+  background: linear-gradient(
+    90deg,
+    #f4e7fb,
+    #f2dddc,
+    #f6bcba,
+    #e3aadd,
+    #c8a8e9,
+    #c3c7f4
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+h2 {
+  font-family: swear-display-cilati, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3em;
+
+}
+
+
+h4 {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-top: 0;
+  text-align: center;
+}
+
+dt {
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+dd {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+li {
+  font-family: noka, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a:hover {
+  color: #ffffff;
+}
