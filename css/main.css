@@ -7,11 +7,11 @@ html {font-size: 100%;} /*16px*/
 
 
 h1 {
-  color: black;
-  font-family: swear-display-cilati, sans-serif;
-  font-weight: 800;
+  color:  #ffffff;
+  font-family: birra, sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 7em;
+  font-size: 8em;
   text-align: center;
   background: none;
   transition: background 0.5s ease, color 0.5s ease;
@@ -34,10 +34,11 @@ h1:hover {
 }
 
 h2 {
-  font-family: swear-display-cilati, sans-serif;
+  font-family: birra, sans-serif;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 3em;
+  color: #E68A00;
 
 }
 
@@ -46,17 +47,20 @@ h4 {
   font-family: noka, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin-top: 0;
   text-align: center;
+  color: #d9d3df;
+
 }
 
 dt {
-  font-family: swear-display-cilati, sans-serif;
-  font-weight: 600;
+  font-family: birra, sans-serif;
+  font-weight: 500;
   font-style: normal;
 	font-size: 2em;
-	font-weight: bold;
+  color: #F2E4C8;
+
 
 }
 
@@ -64,14 +68,30 @@ dd {
   font-family: noka, sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: #F2E4C8;
+
 }
 
 li {
   font-family: noka, sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: #F2E4C8;
+
+}
+
+a:link {
+  color:#ffffff;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #00CFCF;
+}
+
+a:active {
+  color: #00CFCF;
+}
+
+a:visited {
+  color:#009999
 }
