@@ -22,12 +22,12 @@ h1:hover {
   color:transparent;
   background: linear-gradient(
     90deg,
-    #f4e7fb,
-    #f2dddc,
-    #f6bcba,
-    #e3aadd,
-    #c8a8e9,
-    #c3c7f4
+    #FFB347,
+    #F2D06B,
+    #66C5CC,
+    #4D588A,
+    #775DAB,
+    #E9A6A6
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -81,17 +81,13 @@ li {
 }
 
 a:link {
-  color:#ffffff;
-}
-
-a:hover {
-  color: #00CFCF;
-}
-
-a:active {
-  color: #00CFCF;
+  color:#F2E4C8;
 }
 
 a:visited {
-  color:#009999
+  color: #009999;
 }
+a:hover {
+  color: #E68A00;
+}
+
