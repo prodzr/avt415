@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+article {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-weight: 600;
+    color: #4A4949;
+    line-height: 1.6em;
+    font-size: 2.8em;
+}
+
+
+body {
+    font-family: noka, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#toc {
+    background-color: #EFF8F8;
+    padding: 3% 5%;
+    margin-bottom: 40px;
+    width: 65%;
+}
+
+h3 {
+    color:#4A4949;
+}
+
+dt {
+    color: #49494A;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+dd {
+    margin-left: 0;
+    font-size: 1em;
+}
+
+h2 {
+    color:#4A4949;
+}
+
+li {
+    list-style: none;
+}
+
+.author {
+    font-size: 1em;
+}
+
+.date {
+    color: #818181;
+}
