@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+article {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+.title {
+    font-family: "komet", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3em;
+}
+
+body {
+    position: absolute;
+    width: 1440px;  
+
+}
+
+.summary {
+    padding-left: 35px;
+}
+
+.summarybold {
+    font-family: quasimoda, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h4 {
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.thanks {
+    font-style: italic;
+    padding-bottom: 2px;
+}
+
+
+.highlight {
+    color: turquoise ;
+}
+
+.highlight:hover {
+    text-decoration: underline;
+}
+
+.InArticle {
+    font-family: quasimoda, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ol {
+    padding-left: 40px;
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+li {
+    margin-top: 10px;
+    color:turquoise;
+}
+
+li:hover {
+    text-decoration:underline;
+}
+
+.heuristic {
+    font-family: "komet", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2em;
+    padding-top: 35px;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.info {
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.bold {
+    font-weight: 600;
+}
